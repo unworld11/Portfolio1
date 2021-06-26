@@ -6,12 +6,23 @@
   font-family:monospace;
   padding-bottom:10px;
   padding-top:10px;
+  animation:pulse 5s infinite;
+}
+#title:hover{
+  color:yellow;
+}
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
 }
 body{
   background-image:url('https://wallpaperaccess.com/full/1567666.png');
 background-repeat:no-repeat;
 background-size:100%;
-  width:auto;
   background-color:black;
 }
 
@@ -25,6 +36,9 @@ a{
   font-size:20px;
   margin:20px;
 }
+a:hover{
+  color:yellow;
+}
 #about-me{
   margin-bottom:100px;
   text-align:center;
@@ -33,11 +47,15 @@ a{
   font-size:20px;
 }
 #where-to{
-  margin-top:100px;
+  margin-top:50px;
   text-align:center;
   color:white;
 }
-
+#border{
+  background-color:white;
+  margin-top:50px;
+  color:white;
+}
 #where-to>div>a>img{
   width:4%;  
 }
