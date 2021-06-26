@@ -63,13 +63,12 @@ a:hover{
   color:white;
   padding:30px 0px 40px 0px;
   text-align:center;
+  background-image:url('https://wallpaperaccess.com/full/1567666.png')
 }
-#interior-myproject:hover{
-  animation:expand 10s infinite;
-  color:orange;
-  
-  
+#interior-myproject>a>img{
+  height:140px;
 }
+
 @keyframes expand{
   25%{
     font-size:30px;
